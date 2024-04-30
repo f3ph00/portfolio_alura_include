@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="casa.png">
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <header id="particles-js">
+        <div class="cabecalho__header">
+            <li class="cabecalho__itens">
+                <img src="casa.png">
+                <a href="index.html">Inicio</a>
+            </li>
+            <li class="cabecalho__itens">
+                <img src="computador.png">
+                <a href="habilidades.html">habilidades</a>
+            </li >
+            <li class="cabecalho__itens">
+                <img src="pasta.png">
+                <a href="projetos.html">Projetos</a>
+            </li>
+            <li class="cabecalho__itens__idioma">
+                <img id="bandeira-brasil" src="flag_brasil.jpg" alt="bandeira do brasil">
+            </li>
+            <li class="cabecalho__itens__idioma">
+                <img id="bandeira-inglaterra" src="flag_ingl.svg">
+            </li>
+        </div> 
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="menu_white_36dp.svg" alt=""></button>
+        </div>
+        
+        <div class="mobile-menu">
+            <a>
+                <li class="cabecalho__itens__idioma__mobile">
+                    <img id="bandeira-brasil-mobile" src="flag_brasil.jpg" alt="bandeira do brasil">
+                </li>
+                <li class="cabecalho__itens__idioma__mobile">
+                    <img id="bandeira-inglaterra-mobile" src="flag_ingl.svg">
+                </li>
+            </a>   
+            <ul>
+                <li class="cabecalho__itens__mobile">
+                    <img src="casa.png" alt="imagem casa">
+                    <a href="#">Inicio</a>
+                </li>
+                <li class="cabecalho__itens__mobile">
+                    <img src="computador.png">
+                    <a href="habilidades.html">habilidades</a>
+                </li >
+                <li class="cabecalho__itens__mobile">
+                    <img src="pasta.png">
+                    <a href="projetos.html">Projetos</a>
+                </li>
+            </ul>
+            
+        </div>
+
+    </header> 
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo" id="textoIdioma"> 
+            <h1 class="apresentacao__conteudo__titulo texto-bug">Andre <strong>Felipe</strong> </h1>
+            <p class="apresentacao__conteudo__texto">Olá! Meu nome é André Felipe, tenho 22 anos e atualmente estou focado nos estudos de cibersegurança na Anhanguera. Faço parte do Brazilian Advanced Team no San Jose Institute of Technology, onde participo ativamente do programa de formação profissional em Segurança da Informação Avançada. Também estou no programa Jovem Tech em busca de conhecimento na área de programação. Além disso, cursei o curso técnico de programação de jogos digitais no IFMA e sou apaixonado por desenvolvimento de jogos. É um prazer compartilhar um pouco sobre minha trajetória e interesses na área.</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__conteudo__redes">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://github.com/f3ph00" target="_blank"> <img src="github.png" alt="Icone github">GitHub</a>
+                <a class="apresentacao__links__link"  href="https://linkedin.com/in/andrefelipesilvar/" target="_blank"> <img src="linkedin.png">Linkedin</a>
+                <a class="apresentacao__links__link" href="https://www.instagram.com/f3ph0/" target="_blank"> <img src="instagram.png">Instagram</a>
+            </div>
+        </section>
+        <div id="slider" class="borda">
+            <img class="selected" src="F3PH0.jpg" alt="Foto Milena">
+            <img src="F3PH01.jpg">
+            <p class="descricao">Homem do ano de 2023</p>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+        
+        
+    </main>
+    <footer class="rodape">
+        <img src="Logo Alura Include.png">
+        <a>Desenvolvido por Andre Felipe</a>
+    </footer>
+</body>
+</html>

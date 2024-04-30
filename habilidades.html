@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades</title>
+    <link rel="shortcut icon" href="computador.png">
+    <link rel="stylesheet" href="habilidades.css"> 
+</head>
+<body>
+    <header id="particles-js">
+        <div class="cabecalho__header">
+            <li class="cabecalho__itens">
+                <img src="casa.png">
+                <a href="index.html">Inicio</a>
+            </li>
+            <li class="cabecalho__itens">
+                <img src="computador.png">
+                <a href="#">habilidades</a>
+            </li >
+            <li class="cabecalho__itens">
+                <img src="pasta.png">
+                <a href="projetos.html">Projetos</a>
+            </li>
+            <li class="cabecalho__itens__idioma">
+                <img id="bandeira-brasil" src="flag_brasil.jpg" alt="bandeira do brasil">
+            </li>
+            <li class="cabecalho__itens__idioma">
+                <img id="bandeira-inglaterra" src="flag_ingl.svg">
+            </li>
+        </div> 
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="menu_white_36dp.svg" alt=""></button>
+        </div>
+        
+        <div class="mobile-menu">
+            <a>
+                <li class="cabecalho__itens__idioma__mobile">
+                    <img id="bandeira-brasil-mobile" src="flag_brasil.jpg" alt="bandeira do brasil">
+                </li>
+                <li class="cabecalho__itens__idioma__mobile">
+                    <img id="bandeira-inglaterra-mobile" src="flag_ingl.svg">
+                </li>
+            </a>   
+            <ul>
+                <li class="cabecalho__itens__mobile">
+                    <img src="casa.png" alt="imagem casa">
+                    <a href="#">Inicio</a>
+                </li>
+                <li class="cabecalho__itens__mobile">
+                    <img src="computador.png">
+                    <a href="habilidades.html">habilidades</a>
+                </li >
+                <li class="cabecalho__itens__mobile">
+                    <img src="pasta.png">
+                    <a href="projetos.html">Projetos</a>
+                </li>
+            </ul>   
+        </div>
+
+    </header> 
+    <main class="apresentacao" id="textoIdioma">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Minhas <strong>Habilidades</strong></h1>
+            <p class="apresentacao__conteudo__texto">Durante meu tempo de estudo no Jovem Tech, seguindo a trilha de cursos da Alura, pude aprender e aprofundar meus conhecimentos em HTML, CSS, JavaScript e Java. Além disso, possuo conhecimento em Python e em blueprints da Unreal Engine, que são baseadas em C++.</p>
+            <div class="apresentacao__links">
+                <a class="apresentacao__links__certificado" href="https://cursos.alura.com.br/user/12andre-games/fullCertificate/40ae06640a619ae8607b647a0e47fdc5" target="_blank"><img src="documento.png">Certificado</a> 
+            </div> 
+        </section>
+        <section class="icones__principal">
+            <img class="imagem__habilidade" src="gifhab.gif">
+            <div>
+                <img class="icones" src="python.png">
+                <img class="icones" src="css3-alt.png">
+                <img class="icones" src="js.png">
+                <img class="icones" src="html5.png">
+                <img class="icones" src="java.png">
+            </div>
+        </section>
+
+        <script src="habilidadesScript.js"></script>
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+    </main>
+    
+    
+    <footer class="rodape">
+        <img src="Logo Alura Include.png">
+        <a>Desenvolvido por André Felipe</a>
+    </footer>
+</body>
+</html>
+
+<!-- class="imagem__habilidade" -->
