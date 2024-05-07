@@ -180,6 +180,7 @@ strong{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    z-index: 1;
 }
 
 .sombra img{
