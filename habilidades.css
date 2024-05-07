@@ -239,6 +239,7 @@ strong{
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+     z-index: 1;
 }
 
 .icones{
