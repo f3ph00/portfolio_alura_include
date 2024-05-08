@@ -27,9 +27,7 @@ let corAtual = 0;
 setInterval(function() {
     corAtual = (corAtual + 1) % 3;
     if (corAtual === 0) {
-        borda.style.borderColor = 'rgb(0,191,255)';
-    } else if (corAtual === 1) {
-        borda.style.borderColor = 'rgb(255,105,180)';
+        borda.style.borderColor = 'rgb(255,0,0)';
     } else {
         borda.style.borderColor = 'rgb(255, 255, 255)';
     }
